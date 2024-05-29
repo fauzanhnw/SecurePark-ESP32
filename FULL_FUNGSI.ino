@@ -31,12 +31,12 @@ NewPing sonar4(TRIGGER_PIN4, ECHO_PIN4, MAX_DISTANCE);
 NewPing sonar5(TRIGGER_PIN5, ECHO_PIN5, MAX_DISTANCE);
 
 // WiFi credentials
-const char* ssid = "Xiaomi 11T";
-const char* password = "otri200424";
+const char* ssid = "wifi ssid";
+const char* password = "123456";
 
 // Firebase credentials
-#define FIREBASE_HOST "https://fir-dec23-default-rtdb.firebaseio.com/slots1_5"
-#define FIREBASE_AUTH "AIzaSyCB2w7nDJ2jiU2C_CSLhwG2FHOtEzymAG4"
+#define FIREBASE_HOST "fierbase5"
+#define FIREBASE_AUTH "asdjakehekja"
 
 FirebaseData firebaseData;
 FirebaseAuth firebaseAuth;
